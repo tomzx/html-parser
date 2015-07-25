@@ -1,0 +1,46 @@
+{
+	"name": "tomzx/html-parser",
+	"description": "An HTML parser written in PHP",
+	"type": "library",
+	"keywords": [
+		"html",
+		"parser",
+		"visitor",
+		"traversal"
+	],
+	"homepage": "https://github.com/tomzx/html-parser",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tom Rochette",
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tomzx/html-parser/issues"
+	},
+	"require": {
+		"php": ">=5.4.0",
+
+		"tomzx/abstract-parser": "~0.1@dev"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4"
+	},
+	"autoload": {
+		"psr-4": {
+			"tomzx\\HtmlParser\\": "src/tomzx/HtmlParser"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tomzx\\HtmlParser\\Test\\": "tests/tomzx/HtmlParser"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
