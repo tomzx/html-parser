@@ -23,7 +23,7 @@
 	"require": {
 		"php": ">=5.4.0",
 
-		"tomzx/abstract-parser": "~0.1@dev"
+		"tomzx/abstract-parser": "~0.1"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4"
